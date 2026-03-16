@@ -2,6 +2,8 @@
 
 Custom Node forr ComfyUI with 3 Color Wheels (Shadows, Midtones, Highlights), each with a threshold slider and a master intensity slider.
 
+![Sample](./sample.png)
+
 ## Features
 
 - three interactive color wheels
