@@ -16,7 +16,7 @@ Custom Node forr ComfyUI with 3 Color Wheels (Shadows, Midtones, Highlights), ea
 2. restart ComfyUI.
 3. search node in ComfyUI: `Color Grading Wheels`.
 
-## Hinweise
+## Additional info
 
 - the Node takes standard ComfyUI `IMAGE` input.
 - The color wheels write their values into hidden float-widgets, this way values are saved within the workflow.
