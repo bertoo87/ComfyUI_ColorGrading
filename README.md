@@ -1,21 +1,20 @@
 # ComfyUI Color Grading Wheels
 
-Custom Node fur ComfyUI mit drei Farbradern (Shadows, Midtones, Highlights), je einem Bereichsregler und einem globalen Intensity-Slider.
+Custom Node forr ComfyUI with 3 Color Wheels (Shadows, Midtones, Highlights), each with a threshold slider and a master intensity slider.
 
 ## Features
 
-- Drei interaktive Farbrader direkt im Node
-- Je ein Tonbereichs-Split-Regler pro Rad
-- Globaler Intensitatsregler fur den gesamten Effekt
-- Echtzeitfahig auf GPU (Torch-basiert)
+- three interactive color wheels
+- each color wheel with it's own threshold slider
+- global intensity slider
 
 ## Installation
 
-1. Ordner nach `ComfyUI/custom_nodes/ComfyUI_ColorGrading` legen.
-2. ComfyUI neu starten.
-3. Node in ComfyUI suchen: `Color Grading Wheels`.
+1. just place files into `ComfyUI/custom_nodes/ComfyUI_ColorGrading`.
+2. restart ComfyUI.
+3. search node in ComfyUI: `Color Grading Wheels`.
 
 ## Hinweise
 
-- Die Node erwartet RGB-`IMAGE`-Tensors im ComfyUI-Standardformat.
-- Die Farbrader schreiben ihre Werte in versteckte Float-Widgets, damit Workflows die Einstellungen speichern.
+- the Node takes standard ComfyUI `IMAGE` input.
+- The color wheels write their values into hidden float-widgets, this way values are saved within the workflow.
